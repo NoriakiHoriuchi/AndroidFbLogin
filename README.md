@@ -1,6 +1,6 @@
 FbLogin
 
-
+### Libraries
 - Android Studio
     - Gradle
 - Android SDK
@@ -12,4 +12,9 @@ FbLogin
     - version 3.18.1
 
 
+### How to Use
 You should fill Facebook App ID in res/values/strings.xml
+
+### already recognized Issues
+- gradle.propertiesのANDROID_BUILD_SDK_VERSION をapp/build.gradle#compileSdkVersionに設定するとSDKが見つからずエラーになる
+    - 理由は不明
